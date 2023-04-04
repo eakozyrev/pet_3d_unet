@@ -1,26 +1,11 @@
 import glob
-import os
-import random
 import cv2
-import torch
-import math
 import numpy as np
-from torch.autograd import Variable
-import matplotlib.pyplot as plt
 import torch.nn as nn
-from torch import optim
 import torch
-from numpy import loadtxt
-import codecs
 import math
-from torch.autograd import Variable
-import time
-from unet_model import UNet
 import matplotlib.pyplot as plt
-#from torchviz import make_dot
-import SSIM_ke
 import pandas as pd
-#from skimage.metrics import structural_similarity as ssim
 
 def ssim(img1, img2):
     L = np.max(img1)
